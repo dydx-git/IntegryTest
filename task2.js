@@ -25,6 +25,5 @@ const getMovieTitles = async title => {
             <li>${title}</li>
         `;
     });
-
     document.getElementById("task2").innerHTML += htmlString;
 })();
